@@ -8,5 +8,7 @@ public class Ch2Sample1 {
         myWindow.setSize(300,200);
         myWindow.setTitle("my First Java Program");
         myWindow.setVisible(true);
+
+        myWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
