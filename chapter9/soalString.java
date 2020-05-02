@@ -26,7 +26,7 @@ public class soalString {
         System.out.println("1. Menghitung panjang karakter");
         System.out.println("2. Menghitung Jumlah Huruf Vokal");
         System.out.println("3. Menghitung Jumlah Kata ");
-        System.out.println("4. Mengecek Username ");
+        System.out.println("4. Mengecek Username dan Password");
         System.out.println("===================================");
         
         System.out.print("Pilih Menu(1/2/3/4) : ");
@@ -36,15 +36,19 @@ public class soalString {
 
         switch (pilihan) {
             case 1:
-            System.out.print("Nama Lengkap (gunakan huruf kecil) : ");
+            System.out.println("\nProgram 1 : Menghitung panjang karakter");
+            System.out.println("=========================================");
+            System.out.print("Nama Lengkap : ");
             namaLengkap = scanner.next();
             namaKapital = namaLengkap.toUpperCase();
             pjgKarakter = namaKapital.length();
-            System.out.println("Nama Lengkap Anda : "+namaKapital);
+            System.out.println("\nNama Lengkap Anda : "+namaKapital);
             System.out.println("Panjang Karakter Nama Anda : "+pjgKarakter);
             break;
             case 2:
-            System.out.print("Nama Lengkap (gunakan huruf kecil) : ");
+            System.out.println("\nProgram 2 : Menghitung Jumlah Huruf Vokal");
+            System.out.println("===========================================");
+            System.out.print("Nama Lengkap : ");
             namaLengkap = scanner.next();
             namaKapital = namaLengkap.toUpperCase();
             System.out.println("Nama Lengkap Anda : "+namaKapital);
@@ -61,6 +65,8 @@ public class soalString {
             System.out.println("jumlah huruf vokal pada nama anda : "+hitungVokal);
             break;
             case 3:
+            System.out.println("\nProgram 3 : Menghitung Jumlah Kata");
+            System.out.println("====================================");
             System.out.print("Nama Lengkap : ");
             namaLengkap = scanner.next();
             namaKapital = namaLengkap.toUpperCase();
@@ -76,13 +82,16 @@ public class soalString {
                 jmlKata++;
             }
             System.out.println("jumlah kata pada nama anda : "+jmlKata);
+            break;
             case 4:
-           
-
+            System.out.println("\nProgram 4 : Mengecek Username dan Password");
+            System.out.println("============================================");
             while (true) {
-                System.out.print("masukkan username(nama depan) : ");
+                System.out.println("username adalah nama depan anda");
+                System.out.println("password adalah npm anda");
+                System.out.print("\nmasukkan username : ");
                 user = scanner.next();
-                System.out.print("masukkan password(npm) : ");
+                System.out.print("masukkan password : ");
                 pass = scanner.next();
                 
                 if (user.equalsIgnoreCase(username) && pass.equalsIgnoreCase(password)) {

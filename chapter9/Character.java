@@ -12,7 +12,6 @@ public class Character {
         System.out.println("Program Menu");
         System.out.println("1. Mencari Kode ASCII dari karakter");
         System.out.println("2. Mencari Karakter dari kode ASCII");
-        System.out.println("3. Mencari Karakter dari kode ASCII");
         System.out.println("===================================");
         
         System.out.print("Pilih Menu(1/2) : ");
@@ -36,8 +35,8 @@ public class Character {
             System.out.print("Usia : ");
             usia = scanner.nextInt();
             System.out.println("Usia Saya : "+usia);
-            System.out.println("Karakter dengan kode ASCII "+usia+" : "+(char)35);
-            case 3:
+            System.out.println("Karakter dengan kode ASCII "+usia+" : "+(char)usia);
+
         }
 
         

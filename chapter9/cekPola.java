@@ -27,8 +27,10 @@ public class cekPola {
                 }
                 if (namaVariabel.matches("[a-zA-Z][a-zA-Z0-9_$]*")) {
                     System.out.println("variabel ini VALID");
+                    break;
                 }else{
-                    System.out.println("variabel ini INVALIDn");
+                    System.out.println("variabel ini INVALID");
+                    System.out.println("variabel harus diawali huruf");
                 }
             }
             break;
