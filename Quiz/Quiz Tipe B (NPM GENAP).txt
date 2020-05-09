@@ -1,0 +1,37 @@
+soal 1: Dosen
+
+// data member
+
+- class constant : ok
+
+- variabel : ok
+
+//constructor
+
+- default : ok
+
+- overloaded ok
+
+//getter method
+
+lengkap
+
+// setter metod
+
+lengkap
+
+ 
+
+SOal 2:
+
+- tidak menggunakan array dosen dalam menyimpan dan menampilkan data
+
+- pattern matching sedikit kurang tepat seharusnya bukan [0-9] tapi [1-9]
+
+karena tidak ada npm yg diawali angka 0
+
+- try cath ok
+
+ 
+
+ 
